@@ -23,6 +23,9 @@ Method (why this sentence, against the judge's brief, in order):
 
 Deterministic: the sentence is a fixed constant; no input, no randomness,
 no network, no clock. Every run writes and prints the identical sentence.
+Length is 204 characters, inside the 240 cap with headroom: the brief says
+length for its own sake does not count, and on an exact tie the smaller
+text wins, so there is no reason to pad the sentence toward the cap.
 """
 
 import os
